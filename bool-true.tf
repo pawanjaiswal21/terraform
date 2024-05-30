@@ -1,11 +1,11 @@
-#provider "aws" {
-#   region     = "eu-central-1"
-#}
+provider "aws" {
+  region     = "ap-northeast-1"
+}
 
 
 resource "aws_instance" "ec2_example" {
 
-   ami           = "ami-0b9a26d37416470d2"
+   ami           = "ami-0595d6e81396a9efb"
    instance_type =  "t2.micro"
    count = 1
   associate_public_ip_address = var.enable_public_ip
