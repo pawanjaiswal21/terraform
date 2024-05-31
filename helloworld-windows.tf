@@ -1,3 +1,3 @@
-output "pawan-hw" {
-    key = "hello world"
+output pawan {
+    value = "hello world"
 }
