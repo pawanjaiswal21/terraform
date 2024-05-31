@@ -1,7 +1,12 @@
-output pawan jaiswal {
-    value = "hello world"
+output name {
+    value = "pawankumar"
 }
 
-{
-    value= "surname"
+output surname {
+	value = "jaiswal"
+
+}
+
+output "city" {
+	value = "nagpur"
 }
